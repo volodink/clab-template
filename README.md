@@ -10,7 +10,7 @@ sudo apt-get install -y mc htop gcc g++ gcc-multilib g++-multilib doxygen doxyge
 Для получения файлов проекта:
 
 ```
-git clone https://github.com/volodink/ubx-decoder
+git clone https://github.com/volodink/clab-template
 ```
 
 Собрать проект:
@@ -40,5 +40,5 @@ make clean
 Запустить форматирование кода:
 
 ```
-
+make style
 ```
