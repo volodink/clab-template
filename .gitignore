@@ -3,6 +3,8 @@ bin/
 docs/
 
 #Игнорируемые файлы
+src/main.c.orig
+
 # Object files
 *.o
 *.ko
