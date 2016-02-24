@@ -17,6 +17,6 @@ doc:
 	doxygen
 
 style:
-	astyle --style=google src/main.c
+	astyle --style=allman src/main.c
 
 
