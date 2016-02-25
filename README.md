@@ -5,7 +5,7 @@
 
 В Ubuntu 14.04 откройте терминал и выполните:
 ```
-sudo apt-get install -y git mc htop gcc g++ gcc-multilib g++-multilib doxygen doxygen-gui doxygen-latex cmake astyle
+sudo apt-get install -y git mc htop gcc g++ gcc-multilib g++-multilib doxygen doxygen-gui doxygen-latex graphviz cmake astyle
 ```
 
 Для получения файлов проекта:
