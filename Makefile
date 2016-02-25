@@ -4,7 +4,7 @@ prepare:
 	mkdir bin
 
 build: 
-	gcc -Wall -std=c90 -pedantic-errors -O3 -o bin/mylab src/main.c
+	gcc -Wall -std=c90 -pedantic-errors -O3 -o bin/mylab src/main.c -lm
 
 run:
 	./bin/mylab
