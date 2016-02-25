@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <math.h>
+
 
 int add(int, int);
 
@@ -20,5 +22,5 @@ int main(void)
 */
 int add(int fValue, int sValue)
 {
-    return fValue + sValue;
+    return cos(fValue + sValue);
 }
