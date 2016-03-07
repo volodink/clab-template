@@ -1,3 +1,5 @@
+#include <math.h>
+
 /**
 	\author your_user_here
 	\brief my function

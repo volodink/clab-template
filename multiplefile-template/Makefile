@@ -5,9 +5,9 @@ prepare:
 	mkdir obj
 
 build: 
-	gcc -c -O3 -Wall -std=c90 -pedantic-errors src/main.c 
-	gcc -c -O3 -Wall -std=c90 -pedantic-errors src/add.c 
-	gcc -o bin/mylab src/main.o src/add.o -lm
+	gcc -c -O3 -Wall -std=c90 -pedantic-errors -o obj/main.o src/main.c 
+	gcc -c -O3 -Wall -std=c90 -pedantic-errors -o obj/add.o src/add.c -lm 
+	gcc -o bin/mylab obj/main.o obj/add.o -lm
 
 run:
 	./bin/mylab
