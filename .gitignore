@@ -3,7 +3,8 @@ bin/
 docs/
 
 #Игнорируемые файлы
-src/main.c.orig
+main.c.orig
+add.c.orig
 
 # Object files
 *.o
