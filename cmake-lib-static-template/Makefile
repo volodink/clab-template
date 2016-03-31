@@ -13,7 +13,8 @@ doc:
 
 style:
 	astyle --style=java src/main.c
-	astyle --style=java src/add.c
+	astyle --style=java lib/add/add.c
+	astyle --style=java lib/add/add.h
 	
 
 
